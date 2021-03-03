@@ -6,7 +6,13 @@
   "dependencies": {
     "varint": "^6.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "standard": "^16.0.3",
+    "tape": "^5.2.1"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/mafintosh/varint-fraction.git"
